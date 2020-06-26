@@ -89,10 +89,12 @@ main * {
 footer > a, footer > img {
     display: block;
     position: absolute;
-    bottom: 15%;
-    left: 42%;
+    bottom: 10%;
+    left: 44%;
     margin-top: -50px;
-    margin-left: -40px;
+    margin-left: -50px;
+
+
 }
 
 body {
