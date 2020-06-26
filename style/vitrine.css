@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "nasa";
+    src: url("nasalization-rg.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     background-image: url("texture-header.jpg");
     height: 150px;
@@ -55,7 +63,11 @@ main {
     margin-right: auto;
 }
 
-main.accueil > h2 {
+main.Accueil > h2 {
+    text-shadow: 2px 2px 4px black;
+}
+
+main.programme > h2 {
     text-shadow: 2px 2px 4px black;
 }
 
@@ -82,3 +94,39 @@ body {
     font-family: "opensans";
     font-size: 14px;
 }
+
+main {
+    background-color: white; 
+    display: block;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    height: 480px;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+table {
+    font-family: "opensans";
+    text-align: center;
+    width: 810px;  
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    background-color: #27d1ff;
+    color: white;
+}
+
+tr.Un {
+    background-color: #27d1ff;
+}
+
+
+
+
