@@ -53,15 +53,6 @@ a:hover {
     text-decoration: none;
 }
 
-main {
-    font-family: "opensans";
-    font-size: 14px;
-    background-color: #f2f2f2;
-    text-align: center;
-    width: 810px;
-    margin: auto;
-    margin-right: auto;
-}
 
 p {
     margin: 5px;
@@ -79,6 +70,13 @@ main.programme > h2 {
 
 main.accueil {
     text-align: center;
+    font-family: "opensans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+    margin-right: auto;
 }
 
 main * {
@@ -133,6 +131,57 @@ th {
 tr.Un {
     background-color: #27d1ff;
 }
+
+h5:hover{
+    border: 2mm blue solid;
+}
+h6{
+    padding: 8px;
+    background-color: cornflowerblue solid;
+    margin: auto;
+    max-width: 810px;
+    padding: 11px;
+    text-align: center;
+    width: 100px; 
+    background: #17c1ff; 
+    color: white; 
+}
+div#contact{
+    text-transform: capitalize solid;
+    text-shadow: 1.5px 1.5px 0px tomato; 
+    color: #e6e6e6;
+    margin: center;
+    text-align: center;
+    overflow: auto;
+    padding: 10px;
+    background: #2e2f30;
+}
+
+.oui {
+    padding: 10px;
+    border: 5mm #e6e6e6 solid;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.question:hover {
+    text-decoration: none;
+    color: #17c1ff;
+    font-weight: bold;
+}
+h5 {
+height: 30px;
+margin: auto;
+width: 250px;
+padding: 8px;
+text-align: left;
+border: 2mm #e6e6e6 solid;
+}
+
+section.oui {
+    text-align: center;
+}
+
 
 
 
