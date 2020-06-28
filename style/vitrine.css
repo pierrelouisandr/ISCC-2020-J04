@@ -53,7 +53,15 @@ a:hover {
     text-decoration: none;
 }
 
-
+main {
+    font-family: "opensans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+    margin-right: auto;
+}
 p {
     margin: 5px;
     text-align: center;
@@ -70,13 +78,6 @@ main.programme > h2 {
 
 main.accueil {
     text-align: center;
-    font-family: "opensans";
-    font-size: 14px;
-    background-color: #f2f2f2;
-    text-align: center;
-    width: 810px;
-    margin: auto;
-    margin-right: auto;
 }
 
 main * {
@@ -87,7 +88,7 @@ main * {
 footer > a, footer > img {
     display: block;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 44%;
     margin-top: -50px;
     margin-left: -50px;
@@ -101,10 +102,11 @@ body {
     font-size: 14px;
 }
 
-main {
+main.programme {
     display: block;
     border-color:#f2f2f2 ;
     border-width: 2px;
+    border: 2mm #e6e6e6 solid ;
     border-style: solid;
     height: 480px;
     overflow-y: scroll;
@@ -133,7 +135,7 @@ tr.Un {
 }
 
 h5:hover{
-    border: 2mm blue solid;
+    border: 2px blue solid;
 }
 h6{
     padding: 8px;
@@ -146,9 +148,10 @@ h6{
     background: #17c1ff; 
     color: white; 
 }
-div#contact{
+
+main.contact > h2 {
     text-transform: capitalize solid;
-    text-shadow: 1.5px 1.5px 0px tomato; 
+    text-shadow: 2px 2px 4px black;
     color: #e6e6e6;
     margin: center;
     text-align: center;
@@ -157,17 +160,19 @@ div#contact{
     background: #2e2f30;
 }
 
-.oui {
-    padding: 10px;
-    border: 5mm #e6e6e6 solid;
-    margin-left: 350px;
-    margin-right: 350px;
+section.oui {
+    border: 2px #e6e6e6 solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    outline: none;
+    background-color: white;
 }
 
-.question:hover {
+div.question:hover {
     text-decoration: none;
     color: #17c1ff;
     font-weight: bold;
+    text-align: center;
 }
 h5 {
 height: 30px;
@@ -176,10 +181,6 @@ width: 250px;
 padding: 8px;
 text-align: left;
 border: 2mm #e6e6e6 solid;
-}
-
-section.oui {
-    text-align: center;
 }
 
 
